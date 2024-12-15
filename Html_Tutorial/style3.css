@@ -1,0 +1,90 @@
+
+table , th , td{
+
+    /* display: none; */
+    /* visibility: hidden; */
+    border: 2px solid;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th , td{
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+
+
+}
+
+/* td{
+    text-align: center;
+} */
+
+tr:hover{
+    background-color: blue;
+}
+
+/* h1 b{
+    color: blue;
+} */
+
+/* h1 > b{
+    color: blue;
+} */
+
+
+/* h1+b{
+    color: blue;
+} */
+
+h1~b{
+    color: blue;
+}
+
+.dropdownbutton{
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown-menu{
+    /*Display*/
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 150px;
+
+}
+
+.dropdown-menu a{
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+    background-color: white;
+}
+
+.dropdown:hover  .dropdown-menu{
+    display: block;
+}
+
+.dropdown:hover .dropdownbutton{
+    background-color: gray;
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+div[class ="test"]{
+    color: purple;
+}
